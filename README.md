@@ -1,3 +1,3 @@
-﻿# proyecto-mod3
+poyrcto-mod3
 comit proyecto
 chart.js
