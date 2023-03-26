@@ -1,0 +1,144 @@
+/*Globales*/
+
+* {
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.link-inicio_ucamp{
+    font-size: 2em;
+     margin:0 !important;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Películas*/
+.contenedor {
+	width:100%;
+    max-width: 100%;
+	margin: 0 auto;
+    left: 250px;
+    padding: 40px;
+    background-color: #213944;
+    color: #fff;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    transition: all 0.3s ease;
+
+}
+
+.contenedor .pelicula {
+    width: 100%;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 16px; 
+}
+
+.contenedor .poster {
+    width: 50%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+    padding: 10px;
+    box-shadow:0 0 20px 1px #b4e2f7;
+
+}
+
+.contenedor .pelicula:hover {
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.2);
+    opacity: 70%;
+}
+
+/*sidebar*/
+
+.sidebar {
+    width: 100%;
+    height: 96px;
+    display: flex;
+    font-family: 'Almarai', sans-serif;
+    background-color: #467c94;
+    overflow:hidden;
+    transition: all 0.3ms ease;
+}
+
+.sidebar header {
+    width:400px;
+    font-size: 30px;
+    color: #fff;
+    justify-content:space-between;
+    text-align: center;
+    padding: 15px;
+    line-height: 70px;
+    background: #69bbdef2;
+    user-select: none;
+}
+
+.sidebar h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+.sidebar header:hover{
+    color:#213944;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    line-height: 57px;
+    gap: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.sidebar ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+}
+
+.sidebar ul li:hover {
+    background: #69bbde9b;
+    cursor: pointer;
+    box-shadow:0 0 20px 1px #b4e2f7;
+    transition: all 0.1s ease-in-out;
+
+}
+
+.sidebar ul li a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 20px;
+}
+
+
+/*Responsive*/
+@media (min-width: 240px) and (max-width: 880px) {
+    .contenedor {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+}

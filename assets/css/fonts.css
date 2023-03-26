@@ -1,0 +1,54 @@
+
+/* Fuente Jurassic Park */
+@font-face {
+	font-family: 'Jurassic_Park';
+	src: url('../fonts/Jurassic_Park.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* Fuente star wars*/
+@font-face {
+	font-family: 'Starjedi';
+	src: url('../fonts/Starjedi.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Fuente star wars*/
+@font-face {
+	font-family: 'Starjhol';
+	src: url('../fonts/Starjhol.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Fuente Hollywood*/
+@font-face {
+	font-family: 'Hollywood_Capital';
+	src: url('../fonts/Hollywood_Capital.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Hollywood_Capital_Hills';
+	src: url('../fonts/Hollywood_Capital_Hills.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Hollywood_Capital_Blank';
+	src: url('../fonts/Hollywood_Capital_Blank.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'scarymoviegallery';
+	src: url('../fonts/scarymoviegallery.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}

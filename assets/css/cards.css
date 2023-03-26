@@ -1,0 +1,162 @@
+/*Cards*/
+.content__cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 580px);
+    align-items:center;
+    justify-content:center;
+    gap: 79px;
+    margin: 62px 0px;
+}
+
+
+.card{
+    position: relative;
+} 
+
+.card:hover {
+    transform: scale(1.1);
+}
+.card__content {
+    border-radius:25px;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin: 0 auto; 
+    box-shadow: 2px 4px 10px rgb(122, 122, 122);
+}
+
+.bg__icon-cards{
+    background-color: #1D3962;
+    border-radius: 50%;
+    width: 97px;
+    height: 96px;
+    text-align: center;
+    padding: 15px;
+}
+
+.icon__cards-bienvenida{
+    width: 60px;
+}
+
+.bg__caricaturas{
+    background-image: url(../img/Cards_categorias/caricaturas_trans.jpg);
+    background-size: cover;
+}
+
+.bg__cienciaFiccion{
+    background-image: url(../img/Cards_categorias/ciencia_ficcion_trans.jpg);
+    background-size: cover;
+}
+
+.bg__peliculaporcentaje{
+    background-image: url(../img/Cards_categorias/cinta_pelicula_trans.jpg);
+    background-size: cover;
+}
+
+.bg__masVotadas{
+    background-image: url(../img/Cards_categorias/mas_votadas_trans.jpg);
+    background-size: cover;
+}
+
+.bg__mejorValoradas{
+    background-image: url(../img/Cards_categorias/mejor_valoradas_trans.jpg);
+    background-size: cover;
+}
+
+.bg__terror{
+    background-image: url(../img/Cards_categorias/terror_trans.jpg);
+    background-size: cover;
+}
+
+.card__content-img{
+    margin-top: 12px;
+}
+
+.card__content .card__content-text{
+    padding: 2px;
+    width: 270px;
+    height: 60px;
+    color:#070707;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card__overlay {
+    border-radius:25px;
+    width: 80%;
+    height: 250px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    margin: 0 auto;
+    scale: 30s;
+}
+
+.bg__caricaturas2{
+    background-image: url(../img/Cards_categorias/caricaturas.jpg);
+    background-size: cover;
+}
+
+.bg__cienciaFiccion2{
+    background-image: url(../img/Cards_categorias/ciencia_ficcion.png);
+    background-size: cover;
+}
+
+.bg__peliculaporcentaje2{
+    background-image: url(../img/Cards_categorias/cinta_pelicula.png);
+    background-size: cover;
+}
+
+.bg__masVotadas2{
+    background-image: url(../img/Cards_categorias/mas_votadas.jpg);
+    background-size: cover;
+}
+
+.bg__mejorValoradas2{
+    background-image: url(../img/Cards_categorias/mejor_valoradas.jpg);
+    background-size: cover;
+}
+
+.bg__terror2{
+    background-image: url(../img/Cards_categorias/terror.jpg);
+    background-size: cover;
+}
+
+.card__content-img{
+    margin-top: 12px;
+}
+
+.card:hover .card__overlay {
+    opacity: 1;
+    transform: translate(0 -300);
+    transition-duration: 1000ms;
+    backface-visibility: hidden;
+}
+
+.p__description-cards{
+    padding: 0px 20px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 80%;
+    padding: 20px;
+    font-size: .9em;
+    opacity: .9;
+    font-weight: bold;
+}

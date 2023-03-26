@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Peliculas</title>
+    <style>
+
+        body{
+            background-image: url('./assets/img/fondos/fondo2.jpg');
+            background-size: cover;
+        }
+
+        h1{
+           text-align: center;
+           color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Dashboard Peliculas Populares</h1>
+    <div class="chart-container" style="position: relative; height:162vh; width:80vw; background-color:#2c2424a3; margin: 0 auto;">
+        <canvas id="peliculas_populares" width="300" height="300"></canvas>
+    </div>
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="assets/js/graf-populares.js.js"></script>
+</body>
+</html>

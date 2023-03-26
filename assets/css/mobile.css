@@ -1,0 +1,59 @@
+@media (max-width: 1280px) {
+    
+    .content-logos_companias {
+        padding: 30px !important;
+        gap: 6px !important;
+    }
+
+    .bg-cards_companias {
+        padding: 36px !important;
+        width: 164px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .content-logos_companias {
+        grid-template-columns: repeat(3, 1fr) !important;
+        height: 488PX !important;
+    }
+
+    .content__cards {
+    grid-template-columns: repeat(2, 457px);
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .content__cards {
+        grid-template-columns: repeat(1, 457px);
+    } 
+}
+
+
+@media (max-width: 480px) {
+    .slider {
+        width: 365px !important;
+    }
+
+    .img-fondoPeli {
+        width: 366px !important;
+        height: 206px !important;
+    }
+
+    .content-logos_companias {
+        grid-template-columns: repeat(1, 1fr) !important;
+        height: 1045PX !important;
+    }
+
+    .content__cards {
+        grid-template-columns: repeat(1, 399px);
+    }
+}
+
+@media (max-width: 375px) {
+    .header {
+        grid-template-columns: repeat(1, 1fr);
+        height: 280px;
+    }
+}
+

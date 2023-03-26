@@ -1,0 +1,245 @@
+@import url('./fonts.css');
+@import url('cards.css');
+@import url('footer.css');
+@import url('mobile.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content-section{
+    background-image: url('../img/fondos/fondo5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    height: 100%;
+}
+
+.header{
+    background-color: #213944;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 116px;
+    padding: 5px;
+}
+
+.content-logo{
+    width: 109px;
+    height: 105px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #1066ad, #f8f8f8, rgb(230, 255, 1));
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.img-logo{
+    width: 80%;
+    margin: 9px 5px;
+}
+
+.titulo-header{
+    font-family: 'Starjedi';
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    letter-spacing: 4px;
+    line-height: 49px;
+}
+
+select{
+    width: 200px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 15px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+select:focus{
+    box-shadow: 0 0 20px 0 rgb(253, 253, 253);
+}
+
+select option{
+    background-color: rgb(230, 200, 120);
+
+}
+
+input[type='text']{
+    border: 2px solid #aaa;
+    height: 47px;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+input[type='text']:focus {
+    border-color: rgb(214, 14, 7) !important;
+    box-shadow: 0 0 20px 0 dodgerblue;
+}
+
+.img-fondoPeli{
+    text-align: center;
+    width: 700px;
+    height: 394px;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+.img-fondoPeli img{
+    width: 100%;
+}
+
+.img-carrusel{
+    width: 217px;
+    height:123px;
+    border: 1px solid yellow;
+}
+
+.img-carrusel img{
+    width: 100%;
+}
+
+/****CARROUSEL IMAGENES INFINITO****/
+
+.slider{
+    width: 697px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider .slide-track{
+    display: flex;
+    margin: 5px;
+    animation: scroll 60s linear infinite;
+    -webkit-animation: scroll 60s linear infinite;
+    width: calc(100px *40);
+}
+
+.slider .slide{
+    width: 100px;
+    margin: 5px 0 0px 5px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.slider .slide img{
+    width: 100%;
+}
+
+@keyframes scroll{
+    0% {
+        -webkit-animation: translateX(0);
+        transform: translateX(0);
+    }
+    100% {
+        -webkit-animation: translateX(calc(-100px * 20));
+        transform: translateX(calc(-100px * 20));
+    }
+}
+
+/****Cards****/
+.content-logos_companias{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    padding: 30px;
+    background: #08070ca4;
+    height: 220PX;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.bg-cards_companias{
+    background-color: #2a2c38;
+    border: 1px solid #3a3c49;
+    padding: 40px; 
+    width: 187px;
+    border-radius: 10px;
+    height: 136px;
+    box-shadow: -4px 0 14px -5px yellow;
+    margin: auto;
+}
+
+.bg-cards_companias img{
+    width: 100%;
+}
+
+.bg-cards_companias:hover{
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
+    transform: scale(1.1);
+}
+
+/****Categorias****/
+
+.content-categorias{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.bg-cards_categorias{
+    width: 370px;
+    height: 259px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+.titulo_categoria{
+    text-align: center;
+    margin: 40px;
+}
+
+.titulo_categoria h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bg-image_caricaturas{
+    background-image: url('../img/Cards_categorias/caricaturas_trans.jpg') !important;
+    background-size: 100%;
+    background-repeat: round;
+}
+
+
+.bg-image_terror{
+    background-image: url('../img/Cards_categorias/terror_trans.jpg') !important;
+    background-size: 100%;
+    background-repeat: round;
+}
+
+.bg-image_masVotadas{
+    background-image: url('../img/Cards_categorias/mas_votadas_trans.jpg') !important;
+    background-size: 100%;
+    background-repeat: round;
+}
+
+.bg-image_cienciaFiccion{
+    background-image: url('../img/Cards_categorias/ciencia_ficcion_trans.jpg') !important;
+    background-size: 100%;
+    background-repeat: round;
+}
+
+.bg-image_mejorValoradas{
+    background-image: url('../img/Cards_categorias/mejor_valoradas_trans.jpg') !important;
+    background-size: 100%;
+    background-repeat: round;
+}
+
+.bg-image_porcentajes{
+    background-image: url('../img/Cards_categorias/cinta_pelicula_trans.jpg') !important;
+    background-size: 100%;
+    background-repeat: round;
+}

@@ -1,0 +1,68 @@
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #213944;
+    padding: 15px;
+    color: #fff;
+}
+
+
+.container-logoFooter{
+    width: 14%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.container-logoFooter img{
+    width: 150px;
+    height: 130px;
+}
+
+
+
+.content__datos-contacto{
+    display: flex;
+    gap: 5px;
+    margin: 10px;
+    border-bottom: 1px dotted #eee;
+}
+
+.img-mano{
+    width: 17px;
+    height: 22px;
+}
+
+.img-casa{
+    width: 23px;
+    height: 22px;
+}
+
+.img-maletin{
+    width: 21px;
+    height: 22px;
+}
+
+.img-tel-whatsApp{
+    width: 21px;
+    height: 22px;
+}
+
+.img-correo{
+    width: 21px;
+    height: 22px;
+}
+
+.content__redes-sociales{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.content__iconos-redesSociales{
+    background-color: #fff;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    text-align: center;
+}
